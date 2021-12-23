@@ -33,12 +33,36 @@ public class Main {
         int iceCream = 2 * 100;
         int eggs = 4 * 70;
         int eat = bananas + milk + iceCream + eggs;
-        System.out.println("Общий вес завтрака " + (bananas + milk + iceCream + eggs) * 0.001 + "кг");
+        System.out.println("Общий вес завтрака " + (eat * 0.001) + "кг");
 
         int gram = 7*1000;
         int diet1 = gram/250;
         int diet2 = gram/500;
         int optimal = (diet1 + diet2)/2;
         System.out.println(optimal + " день в среднем потребуется для похудения");
+
+        double MashaPrize = 67760 * 0.10;
+        double Masha = 67760 + MashaPrize;
+        System.out.println(Masha + " Маша будет получать в месяц после премии");
+        double year = 67760 * 12;
+        double future = Masha * 12;
+        double difference = future - year;
+        System.out.println(difference + " разница между годовым доходом Маши с нынешней зарплатой и после повышения");
+
+        double DenisPrize = 83690 * 0.10;
+        double Denis = 83690 + DenisPrize;
+        System.out.println(Denis + " Денис будет получать в месяц после премии");
+        double year1 = 83690 * 12;
+        double future1 = Denis * 12;
+        double difference1 = future1 - year1;
+        System.out.println(difference1 + " разница между годовым доходом Дениса с нынешней зарплатой и после повышения");
+
+        double KristinaPrize = 76230 * 0.10;
+        double Kristina = 76230 + KristinaPrize;
+        System.out.println(Kristina + " Кристина будет получать в месяц после премии");
+        double year2 = 76230 * 12;
+        double future2 = Kristina * 12;
+        double difference2 = future2 - year2;
+        System.out.println(difference2 + " разница между годовым доходом Кристины с нынешней зарплатой и после повышения");
     }
 }
