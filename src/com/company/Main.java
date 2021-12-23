@@ -6,8 +6,8 @@ public class Main {
         byte apples = 95;
         System.out.println("Яблок " + apples + " кг");
 
-        short bananas = 212;
-        System.out.println("Бананов " + bananas + " кг");
+        short pear = 212;
+        System.out.println("Груш " + pear + " кг");
 
         int age = 45;
         System.out.println(age);
@@ -27,5 +27,13 @@ public class Main {
         float result = bodyMass2 - bodyMass1;
         System.out.println(sum);
         System.out.println(result);
+
+        int bananas = 5 * 80;
+        int milk = (200/100) * 105;
+        int iceCream = 2 * 100;
+        int eggs = 4 * 70;
+        int eat = bananas + milk + iceCream + eggs;
+        System.out.println(eat);
+        System.out.println("Общий вес завтрака " + (bananas + milk + iceCream + eggs) * 0.001 + "кг");
     }
 }
