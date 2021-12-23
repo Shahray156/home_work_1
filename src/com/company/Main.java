@@ -32,8 +32,9 @@ public class Main {
         int milk = (200/100) * 105;
         int iceCream = 2 * 100;
         int eggs = 4 * 70;
-        int eat = bananas + milk + iceCream + eggs;
-        System.out.println("Общий вес завтрака " + (eat * 0.001) + "кг");
+        int sumEat = bananas + milk + iceCream + eggs;
+        double kg = sumEat * 0.001;
+        System.out.println(kg);
 
         int gram = 7*1000;
         int diet1 = gram/250;
