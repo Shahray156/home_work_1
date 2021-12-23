@@ -21,5 +21,11 @@ public class Main {
         double d = 566.1;
         System.out.println(d);
 
+        float bodyMass1 = 78.2f;
+        float bodyMass2 = 82.7f;
+        float sum = bodyMass1 + bodyMass2;
+        float result = bodyMass2 - bodyMass1;
+        System.out.println(sum);
+        System.out.println(result);
     }
 }
