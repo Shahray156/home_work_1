@@ -3,8 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        byte apples = 95;
-        System.out.println("Яблок " + apples + " кг");
+        byte apples = 9;
+        System.out.println("Яблок " + apples);
 
         short pear = 212;
         System.out.println("Груш " + pear + " кг");
