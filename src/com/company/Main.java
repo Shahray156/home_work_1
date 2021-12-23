@@ -33,7 +33,12 @@ public class Main {
         int iceCream = 2 * 100;
         int eggs = 4 * 70;
         int eat = bananas + milk + iceCream + eggs;
-        System.out.println(eat);
         System.out.println("Общий вес завтрака " + (bananas + milk + iceCream + eggs) * 0.001 + "кг");
+
+        int gram = 7*1000;
+        int diet1 = gram/250;
+        int diet2 = gram/500;
+        int optimal = (diet1 + diet2)/2;
+        System.out.println(optimal + " день в среднем потребуется для похудения");
     }
 }
